@@ -1,0 +1,26 @@
+ue1=("What is the capital of Uttarakhand?","a.Chamoli","b.Dehradun","c.Pauri","d.Tehri")
+print(que1)
+que2=("Who is the first prime minister of independent India?","a.Mahatma Gandhi","b.Doct Rajendra Prasad","c.Jawaharlal Nehru","d.Narendra Modi")
+print(que2)
+
+# prize money
+prize_money1 = (50000)
+print("you won", prize_money1)
+prize_money2 = (100000)
+print("you won", prize_money2)
+
+# answer for question 1
+answer1 = input("Enter your answer for question 1 (a,b,c,d): ")
+if answer1 == "b":
+    print("Correct answer")
+    print("congralutaion you won",prize_money1)
+else:
+        print("Wrong answer for question 2 Game over")
+
+# answer for question 2
+answer2 = input("Enter your answer for question 2 (a,b,c,d): ")
+if answer2 == "c":
+        print("Correct answer")
+        print("Congratulations! You won", prize_money2)
+else:
+        print("Wrong answer for question 1 Game over")
