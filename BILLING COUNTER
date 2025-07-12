@@ -1,0 +1,27 @@
+#discount it's a weekend
+is_weekend = True
+#take costomer input
+custamor_name = input("enter you name: ")
+aj_sold = int(input("how many apple juices would you like to buy: "))
+oj_sold = int(input("how many orange juices would you like to buy: "))
+
+#total juices
+aj_price = 30
+oj_price = 40
+#calculate total
+total_apple = aj_sold * aj_price
+total_orange = oj_sold * oj_price
+total_bill = total_apple + total_orange
+
+#apple discount 20%
+dr = 0.20 if is_weekend else 0
+discount = total_bill * dr
+final_bill = total_bill - discount
+
+#print the bill
+print("juice bill for", custamor_name)
+print("apple juice:", aj_sold)
+print("orange juice:", oj_sold)
+print("total bill $:", total_bill)
+print("discount applied:$", discount)
+print("amount to pay:$", final_bill)
