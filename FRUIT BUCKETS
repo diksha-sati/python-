@@ -1,0 +1,25 @@
+#two fruit buckets
+bucket2 = ["mango", "orange"]
+
+print("Bucket 1:", bucket1)
+print("Bucket 2:", bucket2)
+
+# Add fruit to bucket1 using append
+bucket1.append("grape")
+print("After adding grape to bucket1:")
+print("Bucket 1:", bucket1)
+
+# Insert fruit in bucket2 at 2nd position
+bucket2.insert(2, "kiwi")
+print("After inserting kiwi at second of bucket2:")
+print("Bucket 2:", bucket2)
+
+# Remove last fruit from bucket1 using pop
+bucket1.pop()
+print("After removing last fruit from bucket1:")
+print("Bucket 1:", bucket1)
+
+# remove all fruits from bucket2
+bucket2.clear()
+print("After clearing bucket2:")
+print("Bucket 2:", bucket2)
