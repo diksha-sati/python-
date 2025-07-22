@@ -1,0 +1,7 @@
+numbers=[1,3,5,7]
+#find maximum value
+max_value=max(numbers)
+#find minimum value
+min_value=min(numbers)
+print(" maximum value:",max_value)
+print(" manimum value:",min_value)
