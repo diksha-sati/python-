@@ -1,0 +1,6 @@
+#creating a set
+people={"jay","idrish","archi"}
+print("people:",end="")
+print(people)
+people.add("daxit")
+print("people")
