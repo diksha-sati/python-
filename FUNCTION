@@ -1,0 +1,9 @@
+people={"jay","idrish","archi"}
+vampire={"anushka, diksha"}
+dracula={"raman","zaid"}
+population=people.union(vampire)
+print("union using union() function")
+print("population")
+population=people|dracula
+print("\nunion using '|' oprator")
+print(population)
